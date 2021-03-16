@@ -4,6 +4,7 @@
 <html>
     <head>
         <title>Registration</title>
+        <link href="style1.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -34,7 +35,7 @@
                 </div>
 
                 <button type="submit" name="reg_user">Submit</button>
-
+                <br><br>
                 <p>Already a user? <a href="login.php"><b>Log in</b></a></p>
             </form>
         

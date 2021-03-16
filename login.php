@@ -1,9 +1,10 @@
-<?php include('serverlogin.php') ?>
+<?php include('server.php') ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>Log In</title>
+        <link href="style1.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -23,7 +24,7 @@
                 </div>
 
                 <button type="submit" name="login_user">Log in</button>
-
+                <br><br>
                 <p>Not a user? <a href="registration.php"><b>Register here</b></a></p>
             </form>
         
