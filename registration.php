@@ -20,8 +20,12 @@
                 </div>
 
                 <div>
-                    <label for="email">Email : </label>
-                    <input type="email" name="email" required>
+                    <label for="usertype">User Type : </label>
+                    <br>
+                    <label>Student</label>
+                    <input type="radio" name="usertype" value="student">
+                    <label>Faculty</label>
+                    <input type="radio" name="usertype" value="faculty">
                 </div>
 
                 <div>
